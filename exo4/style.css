@@ -1,0 +1,33 @@
+body{
+    background-color: #5c94fc;
+}
+
+.grand-carre{
+    width: 80%;
+    margin: auto;
+    border-style: 5px solid #343a40;
+}
+.div1{
+    width: 80%;
+    margin: auto;
+    border-style: 5px solid #363e45;
+    background-color: #4976c9;
+}
+.div2{
+    width: 80%;
+    margin: auto;
+    border-style: 5px solid #343a40;
+    background-color: #375897;
+}
+.div3{
+    width: 80%;
+    margin: auto;
+    border-style: 5px solid #343a40;
+    background-color: #243b64;
+}
+.div4{
+    width: 80%;
+    margin: auto;
+    border-style: 5px solid #343a40;
+    background-color: #121d32;
+}

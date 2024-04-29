@@ -1,0 +1,23 @@
+.drapeau{
+    margin: 5%;
+ height: 50%;
+ position: relative;
+}
+.bande{
+    
+    height: 33.33%;
+    position: absolute;
+    width: 80%;
+}
+.jaune{
+    background-color: #fcd116;
+   
+}
+.bleu{
+    background-color: #003893;
+    top: 33.33%;
+}
+.rouge{
+    background-color: #ce1126;
+    top: 66.66%;
+}
