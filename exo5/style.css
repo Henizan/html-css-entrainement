@@ -1,0 +1,30 @@
+table {
+    padding: 25px;
+    width: 60%;
+    height: 200px;
+    border-collapse: collapse;
+}
+
+.header {
+    background-color: #000000;
+    height: 40px;
+    color: white;
+}
+
+tr {
+    border-top: 1px solid #BCBCBC;
+}
+
+.header2 {
+    background-color: #ffffff;
+    height: 40px;
+    color: rgb(0, 0, 0);
+}
+
+.ligne {
+    background-color: rgba(255, 255, 255, 0.500);
+}
+
+tr:nth-of-type(even) {
+    background-color: rgb(237 238 242);
+  }

@@ -1,0 +1,76 @@
+.header{
+background-color: #4976c9;
+height: 100px;
+width: 100%;
+padding: 10px;
+align-items: center;
+justify-content: space-between;
+}
+
+.Titre{
+    color: white;
+    position: absolute;
+    left: 40px;
+    top: 30px;
+
+}
+.boutton{
+    padding: 10px;
+    background-color: white;
+    text-decoration: none;
+    position: absolute;
+    right: 40px;
+    top: 50px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+tr {
+    height: 50px;
+    border-top: 1px solid #BCBCBC;
+}
+
+th, td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.material-symbols-rounded {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 700,
+  'GRAD' 200,
+  'opsz' 48;
+}
+
+.add-user{
+    color: #616060;
+}
+
+.delete{
+    color: #ca3737;
+}
+
+.setting{
+    color: #4976c9;
+}
+
+.inactive{
+    color: #f7e242;
+}
+
+.suspended{
+    color: #ca3737;
+}
+
+.active{
+    color: #30cc33;
+}
+
+img{
+    height: 35px;
+    width: 35px;
+    border-radius: 100%;
+}
