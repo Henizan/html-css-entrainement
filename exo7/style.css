@@ -1,0 +1,22 @@
+.boutton{
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 10px;
+    display: inline-block;
+
+}
+
+
+.mail, .pass{
+    box-sizing: border-box;
+    border-radius: 3px;
+    width: 33%;
+    height: 45px;
+    border: 1px solid rgb(218, 218, 218);
+}
+
+.valider {
+    background-color: rgb(69, 138, 228);
+    width: 33%;
+}
+
