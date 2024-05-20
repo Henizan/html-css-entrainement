@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@251;300;400;600&family=Titillium+Web:wght@400;600;700;900&display=swap"
+        rel="stylesheet">
+    <title>Inscription</title>
+</head>
+
+<body>
+    <div class="presentation">
+        <h1 class="logo">bacefook</h1>
+        <p style="width: 400px;">Avec Bacefook, ne partagez pas et coupez contact avec votre entourage</p>
+    </div>
+    <div class="cadre">
+        <div class="inscription">
+            <div class="head-title">
+            <h2>S'inscrire</h2>
+            <p>C'est long et difficile</p>
+        </div>
+            <hr>
+        </div>
+        <input class="entree nom" type="text" placeholder="Prénom" id="prenom">
+        <input class="entree prenom" type="text" placeholder="Nom" id="nom"><br>
+        <span id="alertenom" class="alerte"></span>
+        <input class="entree mail" type="email" placeholder="Adresse e-mail" id="mail"><br>
+        <span id="alertemail" class="alerte"></span>
+        <input class="entree pass" type="password" placeholder="Mot de passe" id="mdp"><br>
+        <span id="alertemdp" class="alerte"></span>
+        <input class="entree pass" type="password" placeholder="Confirmer votre mot de passe" id="mdpconfirm"><br>
+        <p><span id="alerte2mdp" class="alerte"></span></p>
+        <p class="cadre-title">Date de naissance</p>
+        <div class="date">
+            
+            <select name="jour" id="jour"></select>
+            <select name="mois" id="mois"></select> 
+            <select name="annee" id="annee"></select>
+</div>
+
+    <p class="cadre-title">Genre</p>
+    <div class="genre">
+        <div class="genre-selec">
+            <input type="radio" id="femme" name="genre">
+            <label for="femme">Femme</label>
+        </div>
+        <div class="genre-selec">
+            <input type="radio" id="homme" name="genre">
+            <label for="homme">Homme</label>
+        </div>
+        <div class="genre-selec">
+            <input type="radio" id="autre" name="genre">
+            <label for="autre">Autre</label>
+        </div>
+    </div>
+    <a href="#" class="boutton creer" id="submitBtn">S'inscrire</a><br>
+    <hr>
+    <a class="boutton already"  href="../connexion/connexion.html">J'ai déjà un compte</a>
+
+    <script src="inscripition.js"></script>
+</body>
+
+</html>
